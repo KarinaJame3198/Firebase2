@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MyRecyclerViewHolder">
+
+
+    <TextView
+        android:id="@+id/lblIdModelItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo"
+        android:id="@+id/lblGrupoModelItem2"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materia"
+        android:id="@+id/lblMateriaModelItem3"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividad"
+        android:id="@+id/lblActividadModelItem4"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"/>
+
+
+</LinearLayout>
+
